@@ -1,3 +1,3 @@
-subdir('utility')
-subdir('lib')
-subdir('app')
+# Solomon Systech Drivers
+
+subdir('ssd1306')
