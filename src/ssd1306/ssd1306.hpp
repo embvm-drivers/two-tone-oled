@@ -26,7 +26,7 @@ class ssd1306 final : public embvm::basicDisplay
   public:
 	/// Address is 0x3D if DC pin is set to 1
 	explicit ssd1306(embvm::i2c::master& i2c, uint8_t i2c_addr = DEFAULT_SSD1306_I2C_ADDR)
-		: embvm::basicDisplay("ssd1306"), i2c_(i2c), i2c_addr_(i2c_addr)
+		: i2c_(i2c), i2c_addr_(i2c_addr)
 	{
 		// Initialize the display buffer with byte 0x40, indicating that it is a
 		// Data payload. This is used to transfer the whole screen buffer in a
