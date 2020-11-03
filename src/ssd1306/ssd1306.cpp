@@ -1,3 +1,6 @@
+// Copyright 2020 Embedded Artistry LLC
+// SPDX-License-Identifier: MIT
+
 #include "ssd1306.hpp"
 #include "font/font5x7.h"
 #include "font/font8x16.h"
