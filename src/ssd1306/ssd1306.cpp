@@ -6,7 +6,7 @@
 #include "font/font8x16.h"
 #include <algorithm>
 #include <bits/bits.hpp>
-#include <gsl/gsl>
+#include <gsl/gsl-lite.hpp>
 
 using namespace embdrv;
 
